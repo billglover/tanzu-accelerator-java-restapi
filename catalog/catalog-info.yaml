@@ -6,7 +6,8 @@ metadata:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=rest-service-db"
 spec:
   type: service
-  lifecycle: experimental
-  owner: default-team
+  lifecycle: dev
+  owner: uki-tanzu-se-org
+  system: demo
   providesApis:
     - rest-service-db
